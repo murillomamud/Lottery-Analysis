@@ -61,4 +61,4 @@ print('''
     Most frequently number is: {}
     Less frequently number is: {}
     Combination most frequently is: {} with frequency of: {}%
-''').format(freq_nr[-1][0], freq_nr[0][0], resultDF['Combination'].values[-1], int((resultDF['p_freq'].values[-1]*100)*100)/100)
+'''.format(freq_nr[-1][0], freq_nr[0][0], resultDF['Combination'].values[-1], int((resultDF['p_freq'].values[-1]*100)*100)/100))
